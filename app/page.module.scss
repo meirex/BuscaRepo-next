@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  gap: 32px;
+  padding: 0 48px;
+  justify-content: center;
+
+  img{
+    margin-top: calc(32px - 14px);
+  }
+
+  >div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 14px;
+
+
+    >a {
+      align-self: flex-end;
+      width: 223px;
+    }
+
+
+  }
+
+}
+
+.container-projects{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+
+
+}

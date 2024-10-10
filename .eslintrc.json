@@ -1,3 +1,10 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-undef": "warn", // Permite variáveis não declaradas como um aviso
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }] // Alerta para variáveis não utilizadas, exceto se começarem com "_"
+  },
+  "globals": {
+    "myGlobalVariable": "readonly" 
+  }
 }

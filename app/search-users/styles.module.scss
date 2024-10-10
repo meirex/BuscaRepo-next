@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+
+    &--search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #b4bbb4b4;
+        width: 100%;
+        gap: 17px;
+        padding: 48px 0;
+
+        input {
+            width: 742px;
+        }
+
+        button {
+            width: 204.874px;
+        }
+    }
+
+    &--body {
+        >div {
+            display: flex;
+            gap: 32px;
+            padding: 0 48px;
+            justify-content: center;
+
+            img {
+                margin-top: calc(32px - 14px);
+            }
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                margin-top: 14px;
+
+
+                >a {
+                    align-self: flex-end;
+                    width: 223px;
+                }
+
+
+            }
+        }
+    }
+
+}
+
+.container-projects {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+
+
+}
+
